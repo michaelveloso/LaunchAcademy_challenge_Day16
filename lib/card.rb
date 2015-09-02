@@ -20,7 +20,7 @@ class Card
     elsif ace?
       1
     else
-      rank
+      rank.to_i
     end
   end
 

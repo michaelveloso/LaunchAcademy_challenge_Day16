@@ -23,7 +23,7 @@ class Hand
   end
 
   def blackjack?
-    cards.any?{|card| card.ace?} && cards.any?{|card| card.face_card?}
+    score == 21
   end
 
   def bust?
